@@ -6,8 +6,8 @@ import (
 	"net/http"
 
 	"github.com/TriggerMail/go_prpc_example/helloworld"
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/grpc/prpc"
+	"github.com/TriggerMail/luci-go/server/router"
 )
 
 type helloServer struct {
